@@ -9,6 +9,7 @@ Powered by [Hexo](https://github.com/hexojs/hexo) + [NexT](https://github.com/th
 
     ```shell
     hexo new [layout] <title>
+    # e.g. hexo new 歌词海报
     ```
     ><details>
     ><summary><code>[layout]</code>可以选择<code>scaffolds</code>文件夹下的多种模式</summary>
