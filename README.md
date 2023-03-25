@@ -7,16 +7,21 @@ Powered by [Hexo](https://github.com/hexojs/hexo) + [NexT](https://github.com/th
 
 1. 新建一篇（发布/草稿）文章
 
-    ```shell
-    hexo new [layout] <title>
-    # e.g. hexo new 歌词海报
-    ```
-    ><details>
-    ><summary><code>[layout]</code>可以选择<code>scaffolds</code>文件夹下的多种模式</summary>
-    >
-    >1. `post`：（默认）发布
-    >2. `draft`：草稿，不会发布。（需要用命令`hexo publish <filename>`把`_drafts`移动到`_posts`）
-    ></details>
+    1. 方法一：
+
+        ```shell
+        hexo new [layout] <title>
+        # e.g. hexo new 歌词海报
+        ```
+        ><details>
+        ><summary><code>[layout]</code>可以选择<code>scaffolds</code>文件夹下的多种模式</summary>
+        >
+        >1. `post`：（默认）发布
+        >2. `draft`：草稿，不会发布。（需要用命令`hexo publish <filename>`把`_drafts`移动到`_posts`）
+        ></details>
+    2. 方法二：
+
+        直接copy一份已发布成功的源文件（包含：一个.md文件 + 一个同名文件夹）
 2. 启动本地开发服务器
 
     ```shell
@@ -46,13 +51,15 @@ Powered by [Hexo](https://github.com/hexojs/hexo) + [NexT](https://github.com/th
     ```
     >`<type>`必选以下之一：`page`、`post`、`route`、`tag`、`category`。
 
+<details>
+<summary>开发者关注</summary>
+
 ### 配置
 1. Hexo总体配置：`_config.yml`
 2. themes的配置：`themes/next/_config.yml`
 3. themes的微调：`themes/next/`的资源文件
 
-<details>
-<summary><h3>移植、升级博客</h3></summary>
+### 移植、升级博客
 1. 保留文章资源和配置
 
     1. 文章资源：`source/`下的所有文件
@@ -79,6 +86,6 @@ Powered by [Hexo](https://github.com/hexojs/hexo) + [NexT](https://github.com/th
 
     # 6. 按照Hexo的命令进行发布
     ```
-</details>
 
 >配置文档地址：[Hexo配置](https://hexo.io/zh-cn/docs/)、[NexT配置](https://theme-next.org/docs/)。
+</details>
