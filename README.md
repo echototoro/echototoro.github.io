@@ -21,7 +21,7 @@ Powered by [Hexo](https://github.com/hexojs/hexo) + [NexT](https://github.com/th
         ></details>
     2. 方法二：
 
-        直接copy一份已发布成功的源文件（包含：一个.md文件 + 一个同名文件夹）
+        直接copy一份已发布成功的源文件（包含：一个.md文件 + 一个放图片的同名文件夹）
 2. 启动本地开发服务器
 
     ```shell
