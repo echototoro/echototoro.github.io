@@ -33,12 +33,18 @@ Powered by [Hexo](https://github.com/hexojs/hexo) + [NexT](https://github.com/th
     >增加`-p 数字`可以指定端口号。
 3. 发布（生成静态文件、并且部署网站）
 
-    ```shell
-    hexo g -d   # 或：hexo d -g
-    # 或用压缩发布：npm run publish
+    >可能需要输入github的账户名、密码。
 
-    # 可能需要输入github的账户名、密码
-    ```
+    1. 方法一：
+
+        ```shell
+        hexo g -d   # 或：hexo d -g
+        ```
+    2. 方法二（推荐，会压缩所有资源）：
+
+        ```shell
+        npm run publish
+        ```
 4. 清理缓存（发布前后或本地服务器看不到更新内容时）
 
    ```shell
