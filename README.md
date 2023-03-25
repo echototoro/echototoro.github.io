@@ -35,9 +35,9 @@ Powered by [Hexo](https://github.com/hexojs/hexo) + [NexT](https://github.com/th
 
     ```shell
     hexo g -d   # 或：hexo d -g
+    # 或用压缩发布：npm run publish
 
     # 可能需要输入github的账户名、密码
-    # 或用压缩发布：npm run publish
     ```
 4. 清理缓存（发布前后或本地服务器看不到更新内容时）
 
