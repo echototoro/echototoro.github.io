@@ -51,7 +51,8 @@ Powered by [Hexo](https://github.com/hexojs/hexo) + [NexT](https://github.com/th
 2. themes的配置：`themes/next/_config.yml`
 3. themes的微调：`themes/next/`的资源文件
 
-### 移植、升级博客
+### <details>
+<summary>移植、升级博客</summary>
 1. 保留文章资源和配置
 
     1. 文章资源：`source/`下的所有文件
@@ -78,5 +79,6 @@ Powered by [Hexo](https://github.com/hexojs/hexo) + [NexT](https://github.com/th
 
     # 6. 按照Hexo的命令进行发布
     ```
+</details>
 
 >配置文档地址：[Hexo配置](https://hexo.io/zh-cn/docs/)、[NexT配置](https://theme-next.org/docs/)。
