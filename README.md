@@ -1,5 +1,7 @@
 # echototoro.github.io
-Powered by [Hexo](https://github.com/hexojs/hexo) + [NexT](https://github.com/theme-next/hexo-theme-next), hosted by GitHub Pages: <https://pmecho.com> and hosted by [Vercel](https://vercel.com): <https://pmecho.cn>.
+Powered by [Hexo](https://github.com/hexojs/hexo) + [NexT](https://github.com/theme-next/hexo-theme-next).
+
+Hosted by GitHub Pages: <https://pmecho.com> | Hosted by [Vercel](https://vercel.com): <https://pmecho.cn>.
 
 ### Hexo的命令
 >1. `[内容]`选填；`<内容>`必填。
@@ -35,7 +37,7 @@ Powered by [Hexo](https://github.com/hexojs/hexo) + [NexT](https://github.com/th
 
     >可能需要输入github的账户名、密码。
 
-    1. 发布GitHub Pages
+    1. 发布至GitHub Pages
 
         1. 方法一（推荐，会压缩所有资源）：
 
@@ -47,7 +49,7 @@ Powered by [Hexo](https://github.com/hexojs/hexo) + [NexT](https://github.com/th
             ```shell
             hexo g -d   # 或：hexo d -g
             ```
-    2. 发布vercel
+    2. 发布至Vercel
 
         推配置分支（`pushBlog`）代码就自动发布。
 4. 清理缓存（发布前后或本地服务器看不到更新内容时）
