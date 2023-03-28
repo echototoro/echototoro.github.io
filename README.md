@@ -49,7 +49,7 @@ Powered by [Hexo](https://github.com/hexojs/hexo) + [NexT](https://github.com/th
             ```
     2. 发布vercel
 
-        推代码就自动发布。
+        推配置分支（`pushBlog`）代码就自动发布。
 4. 清理缓存（发布前后或本地服务器看不到更新内容时）
 
    ```shell
