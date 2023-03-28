@@ -1,5 +1,5 @@
 # echototoro.github.io
-Powered by [Hexo](https://github.com/hexojs/hexo) + [NexT](https://github.com/theme-next/hexo-theme-next), hosted by GitHub Pages.
+Powered by [Hexo](https://github.com/hexojs/hexo) + [NexT](https://github.com/theme-next/hexo-theme-next), hosted by GitHub Pages: <https://pmecho.com> and hosted by [Vercel](https://vercel.com): <https://pmecho.cn>.
 
 ### Hexo的命令
 >1. `[内容]`选填；`<内容>`必填。
