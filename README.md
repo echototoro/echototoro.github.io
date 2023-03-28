@@ -35,16 +35,21 @@ Powered by [Hexo](https://github.com/hexojs/hexo) + [NexT](https://github.com/th
 
     >可能需要输入github的账户名、密码。
 
-    1. 方法一（推荐，会压缩所有资源）：
+    1. 发布GitHub Pages
 
-        ```shell
-        npm run publish
-        ```
-    2. 方法二：
+        1. 方法一（推荐，会压缩所有资源）：
 
-        ```shell
-        hexo g -d   # 或：hexo d -g
-        ```
+            ```shell
+            npm run publish
+            ```
+        2. 方法二：
+
+            ```shell
+            hexo g -d   # 或：hexo d -g
+            ```
+    2. 发布vercel
+
+        推代码就自动发布。
 4. 清理缓存（发布前后或本地服务器看不到更新内容时）
 
    ```shell

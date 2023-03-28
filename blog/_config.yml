@@ -12,8 +12,8 @@ timezone: Asia/Shanghai
 
 # 网站
 ## 如果网站在子目录，则设置：url为'http://yoursite.com/child'、root为'/child/'
-url: https://pmecho.com
-root: /
+#url: https://pmecho.com
+#root: /
 permalink: :year/:month/:title/ # 文章URL的“永久链接”格式
 permalink_defaults:
 pretty_urls:
