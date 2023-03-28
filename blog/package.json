@@ -7,8 +7,10 @@
   },
   "scripts": {
     "server": "hexo clean && hexo server",
-    "publish": "hexo clean && hexo g && npm run gulp && hexo d && hexo clean",
-    "gulp": "gulp"
+    "gulp": "gulp",
+    "generate": "hexo clean && hexo g",
+    "deploy": "hexo d",
+    "publish": "npm run generate && npm run gulp && npm run deploy && hexo clean"
   },
   "dependencies": {
     "hexo": "^4.2.1",

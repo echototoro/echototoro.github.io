@@ -9,6 +9,9 @@ Powered by [Hexo](https://github.com/hexojs/hexo) + [NexT](https://github.com/th
 
     1. 方法一：
 
+        直接copy一份已发布成功的源文件（包含：一个.md文件 + 一个放图片的同名文件夹）
+    2. 方法二：
+
         ```shell
         hexo new [layout] <title>
         # e.g. hexo new 歌词海报
@@ -19,9 +22,6 @@ Powered by [Hexo](https://github.com/hexojs/hexo) + [NexT](https://github.com/th
         >1. `post`：（默认）发布
         >2. `draft`：草稿，不会发布。（需要用命令`hexo publish <filename>`把`_drafts`移动到`_posts`）
         ></details>
-    2. 方法二：
-
-        直接copy一份已发布成功的源文件（包含：一个.md文件 + 一个放图片的同名文件夹）
 2. 启动本地开发服务器
 
     ```shell
@@ -35,15 +35,15 @@ Powered by [Hexo](https://github.com/hexojs/hexo) + [NexT](https://github.com/th
 
     >可能需要输入github的账户名、密码。
 
-    1. 方法一：
-
-        ```shell
-        hexo g -d   # 或：hexo d -g
-        ```
-    2. 方法二（推荐，会压缩所有资源）：
+    1. 方法一（推荐，会压缩所有资源）：
 
         ```shell
         npm run publish
+        ```
+    2. 方法二：
+
+        ```shell
+        hexo g -d   # 或：hexo d -g
         ```
 4. 清理缓存（发布前后或本地服务器看不到更新内容时）
 
