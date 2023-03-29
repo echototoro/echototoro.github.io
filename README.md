@@ -51,9 +51,9 @@ Hosted by GitHub Pages: <https://pmecho.com> | Hosted by [Vercel](https://vercel
             ```
     2. 发布至Vercel
 
-        >`npm run generate -- --config _config.yml,_config.vercel.yml && npm run gulp && rm -f ./public/CNAME`
-
         推配置分支（`pushBlog`）代码就自动发布。
+
+        >自动运行：`npm run generate -- --config _config.yml,_config.vercel.yml && npm run gulp && rm -f ./public/CNAME`
 4. 清理缓存（发布前后或本地服务器看不到更新内容时）
 
    ```shell
