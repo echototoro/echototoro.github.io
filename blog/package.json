@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "hexo": "^4.2.1",
-    "hexo-blog-encrypt": "^3.1.6",
+    "hexo-blog-encrypt": "^3.1.9",
     "hexo-browsersync": "^0.3.0",
     "hexo-deployer-git": "^2.1.0",
     "hexo-generator-archive": "^1.0.0",
@@ -32,5 +32,8 @@
     "gulp-htmlmin": "^5.0.1",
     "gulp-imagemin": "6.2.0",
     "gulp-terser": "^1.4.1"
+  },
+  "engines": {
+    "node": ">=10.13.0"
   }
 }
