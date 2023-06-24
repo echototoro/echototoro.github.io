@@ -90,7 +90,7 @@ meta_generator: true
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## Use post's date for updated date unless set in front-matter
-use_date_for_updated: false
+use_date_for_updated: empty
 
 # 分页
 per_page: 5  # 每页显示的文章量 (0 = 关闭分页功能)
